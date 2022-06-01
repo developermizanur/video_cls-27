@@ -1,0 +1,121 @@
+/* defult-css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* responsiv */
+/* header-section */
+@media all and (max-width: 1240px) {
+    .header .header-right ul {
+        text-align: left;
+    }
+    .service .service-item {
+        width: 24.33%;
+    }
+    .about-section {
+        margin-right: 152px;
+    }
+    .blog-left-content {
+        width: 50%;
+    }
+    .blog-left-notification {
+        width: 47%;
+    }
+}
+@media all and (max-width: 992px) {
+    .header .header-right ul li a {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+    .about-section {
+        margin-right: 433px;
+    }
+    .service .service-item {
+        width: 18.33%;
+    }
+    .blog-left-content {
+        width: 40%;
+    }
+    .blog-left-notification {
+        width: 58%;
+    }
+}
+@media all and (max-width: 768px) {
+    .header .header-right {
+        width: 84%;
+    }
+    .header .header-left {
+        width: 15%;
+    }
+    .header .header-left img {
+        width: 46%;
+    }
+    .about-section {
+        margin-right: 685px;
+    }
+    .service .service-item {
+        width: 13.33%;
+}
+    .blog-left-notification {
+	    width: 58%;
+	    margin-right: 300px;
+}
+.blog-left-content {
+	width: 44%;
+	margin-left: 10px;
+}
+}
+@media all and (max-width: 580px) {
+   
+}
+@media all and (max-width: 420px) {
+    .header .header-right ul li a {
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+    .header .header-right {
+        width: 95%;
+    }
+    .header .header-left img {
+        width: 100%;
+    }
+    .header .header-left {
+        width: 5%;
+    }
+    .service .service-item {
+        width: 6.33%;
+    }
+    .service .service-item span {
+        width: 40px;
+        height: 40px;
+        font-size: 33px;
+    }
+    .service .service-item h3 {
+        font-size: 20px;
+    }
+    .service .service-item p {
+        font-size: 10px;
+        padding: 40px 0px;
+    }
+    .about-section {
+        margin-right: 930px;
+    }
+
+
+    .blog-left-notification {
+        width: 56%;
+        margin-right: 528px;
+    }
+
+
+    .footer .footer-left p {
+        font-size: 15px;
+    }
+}.banner-caption {
+	padding: 57px 0px;
+}
+@media all and (max-width: 320px) {
+    
+}
+
